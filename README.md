@@ -1,53 +1,99 @@
-# 🚀 Progate Technology Solutions
+# 🍔 BadiEats - Food Delivery Solution
 
-Welcome to **Progate Technology Solutions** — your trusted partner in digital innovation.
-
-We specialize in delivering high-performance, scalable, and modern technology solutions that drive business growth and streamline operations.
+**BadiEats** is a **Micro Frontend** architecture-based solution for the **BadiDukan** platform. It provides a scalable, modular, and user-friendly experience for managing food delivery operations.
 
 ---
 
-## 🌐 What We Do
+## 🌐 Why Micro Frontends?
 
-### 💻 Web Development
-We build elegant, responsive, and high-performing websites tailored to your brand and business goals.
+Micro Frontends decompose a monolithic frontend into **independent, modular applications**. This approach benefits **BadiEats** by offering:
 
-- Modern frontend frameworks (React, Next.js, Vue)
-- Backend APIs and databases (Node.js, Laravel, MySQL, MongoDB)
-- SEO-friendly and optimized for speed
-
-### ☁️ Cloud Solutions
-Empowering businesses to scale with confidence through cloud-native services and infrastructure automation.
-
-- Cloud migration & architecture (AWS, Azure, GCP)
-- DevOps & CI/CD pipelines
-- Serverless solutions & Kubernetes
-
-### 🏢 Enterprise Applications
-Robust and secure enterprise-grade software to digitize and optimize your operations.
-
-- ERP & CRM solutions
-- Business intelligence dashboards
-- Workflow automation tools
+- **Scalability**: Add or update features without disrupting other modules.
+- **Modular Flexibility**: Load and deliver business-specific features on demand.
+- **Independent Deployment**: Teams can develop and deploy modules separately.
+- **Improved Collaboration**: Parallel development of features by different teams.
+- **Custom User Experience**: Each user role sees only relevant modules (e.g., Restaurant Admin, Delivery Partner, Customer).
 
 ---
 
-## 🤝 Why Choose Progate?
+## 📊 How It Works
 
-✅ **Tailored Solutions** — We understand every business is unique  
-✅ **Agile Development** — Rapid prototyping and iterative delivery  
-✅ **Scalability First** — Future-proof architectures  
-✅ **End-to-End Support** — From planning to deployment and beyond  
-
----
-
-## 📞 Let's Connect
-
-📧 Email: [contact@progatetechnology.com](mailto:contact@progatetechnology.com)  
-🌐 Website: [www.progatetechnology.com](https://www.progatetechnology.com/)  
-📍 Location: Lucknow, India | Serving clients worldwide
+1. **Business Registration**: Restaurants register on the platform and access relevant modules.
+2. **Dynamic Module Loading**: Tailored micro frontends are loaded based on user roles.
+3. **Order Management**: Customers place orders, and restaurants and delivery partners handle fulfillment.
 
 ---
 
-> **"Transforming ideas into intelligent digital experiences."**  
-> — The Progate Team
 
+## 🚀 Key Features
+
+- **Multi-Tenant Support**: Each restaurant operates independently.
+- **Role-Based Access Control (RBAC)**: Different modules for customers, restaurant admins, and delivery partners.
+- **Real-Time Order Tracking**: Monitor orders from placement to delivery.
+- **Scalable Micro Frontends**: Dynamic loading for better performance.
+- **Custom Module Assignment**: Tailor features to different business needs.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (with Single-SPA for Micro Frontends)
+- **Backend**: Node.js + Express (with MySQL Database)
+- **Styling**: Tailwind CSS (with custom themes)
+- **Deployment**: Docker (for containerized services)
+
+---
+
+## 📦 Installation
+
+1. **Clone the Repository:**
+
+```bash
+git clone https://github.com/your-org/BadiEats.git
+cd BadiEats
+```
+
+2. **Set Up Environment Variables:**
+
+Create a `.env` file in the root directory:
+
+```env
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root 
+MYSQL_PASS=yourpassword
+MYSQL_DB=badi_eats
+JWT_SECRET=your_jwt_secret
+```
+
+3. **Install Dependencies:**
+
+```bash
+npm install
+```
+
+4. **Run the Application:**
+
+```bash
+npm run dev
+```
+
+---
+
+## 📖 Contribution Guidelines
+
+1. Fork the repository and create a new branch.
+2. Implement your changes.
+3. Submit a pull request with a clear description.
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌟 Motto
+
+**"From Local Hustle to Global Muscle"**
