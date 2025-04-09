@@ -9,7 +9,7 @@ export default function Home() {
       </p>
       <a
         href="/login"
-        className="bg-primary text-white px-6 py-3 rounded-lg text-lg hover:bg-primary/90 transition"
+        className="bg-accent text-white px-6 py-3 rounded-lg text-lg hover:bg-accent/40 transition"
       >
         Go to Login
       </a>
